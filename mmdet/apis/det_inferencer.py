@@ -304,7 +304,7 @@ class DetInferencer(BaseInferencer):
             wait_time: int = 0,
             no_save_vis: bool = False,
             draw_pred: bool = True,
-            pred_score_thr: float = 0.3,
+            pred_score_thr: float = 0.25,
             return_datasamples: bool = False,
             print_result: bool = False,
             no_save_pred: bool = True,
@@ -432,7 +432,7 @@ class DetInferencer(BaseInferencer):
                   show: bool = False,
                   wait_time: int = 0,
                   draw_pred: bool = True,
-                  pred_score_thr: float = 0.3,
+                  pred_score_thr: float = 0.25,
                   no_save_vis: bool = False,
                   img_out_dir: str = '',
                   **kwargs) -> Union[List[np.ndarray], None]:
